@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Login Page</title>
+	<script>
+		function abc(){
+			alert("hello");
+		}
+	</script>
+	</head>
+	<h1>my username is {{username}}</h1>
+	<body>
+		<form name="LoginForm" method="POST" action="http://localhost/hackathon/login.php">
+			<table width="20%" bgcolor="0099CC" align="center">
+
+				<tr>
+					<td colspan=2><center><font size=4><b>Login Page</b></font></center></td>
+				</tr>
+
+				<tr>
+					<td>Username:</td>
+					<td><input type="text" size=25 name="username"></td>
+				</tr>
+
+				<tr>
+					<td>Password:</td>
+					<td><input type="Password" size=25 name="password"></td>
+				</tr>
+
+				<tr>
+					<td ><input type="Reset"></td>
+					<td><input type="submit" name="submit" value="Login"></td>
+					<td><a href="signup.html"><input type="button" " value="SignUp"></td></a>
+				</tr>
+
+			</table>
+		</form>
+	</body>
+	</html>
